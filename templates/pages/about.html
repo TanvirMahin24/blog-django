@@ -1,0 +1,435 @@
+{% extends 'base.html' %}
+<!-- prettier-ignore -->
+{% load static %}
+{% block content %}
+<!--About-->
+<div class="container mt-4 overflow-hidden">
+  <div class="row pb-4 pt-5">
+    <div class="col-md-6 m-auto">
+      <h1 class="font-weight-normal">
+        About <span class="font-weight-bold">Natai</span>
+      </h1>
+      <hr class="w-75" />
+      <p class="h5 font-weight-lighter text-justify">
+        Natai, is a Bangladeshi youth organization with the sole purpose to
+        provide students a common platform for showcasing their creative skills.
+        <br />
+        <br />
+        Team Natai inviting students to be the part of a journey to the
+        brightest sight of our life full of happiness, satisfaction and love.
+      </p>
+    </div>
+    <div class="col-md-6 m-auto">
+      <img src="{% static '/img/aboutImg1.png' %}" alt="" class="w-100" />
+    </div>
+  </div>
+
+  <div class="row mt-5">
+    <div class="col-md-6 m-auto p-3 order2">
+      <img src="{% static '/img/services.svg' %}" alt="" class="w-100" />
+    </div>
+    <div class="col-md-6 m-auto text-right order1">
+      <h1 class="font-weight-normal">Our goal and Services</h1>
+      <div class="d-flex justify-content-end">
+        <hr class="w-75 float-right" />
+      </div>
+      <p class="h5 font-weight-lighter text-justify">
+        In this platform, students can build up communities with their fellows.
+        Through Natai, they will have their own secured profile and the
+        proprietary rights of their creations.<br />
+        <br />
+        An online magazine will be published monthly selecting the best articles
+        of the students along with the works from famous writers, speakers and
+        enthusiastic personnel of our country.
+      </p>
+    </div>
+  </div>
+
+  <!-- TEAM -->
+  <div class="col-12 pt-5">
+    <h1 class="text-center font-weight-normal">Our Team</h1>
+    <hr class="w-25 mx-auto" />
+  </div>
+  <div class="row">
+    <!--Profile Rayhan-->
+    <div class="col-md-4 my-4 my-md-0 p-4">
+      <div class="card profile-card">
+        <div class="background-block">
+          <img
+            src="{% static '/img/founder.jpg' %}"
+            alt="profile-sample1"
+            class="background w-100"
+          />
+        </div>
+        <div class="profile-thumb-block">
+          <img
+            src="{% static '/img/Omar Rayhan.jpg' %}"
+            alt="profile-image"
+            class="profile w-100"
+          />
+        </div>
+        <div class="card-content card-body pb-4">
+          <span class="h4 mt-4 d-block"> Mohammad Omar Rayhan </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-briefcase pr-2"></i>CEO & Founder
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-graduation-cap pr-2"></i>Rajshahi University of
+            Engineering and Technology
+          </span>
+
+          <div class="d-flex justify-content-center my-2 social">
+            <a href="https://www.facebook.com/rayhan.ruet" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+
+            <a
+              href="https://www.linkedin.com/in/omar-rayhan-a72267157/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Profile Rayhan END-->
+
+    <!--Profile Rumi -->
+    <div class="col-md-4 my-4 my-md-0 p-4">
+      <div class="card profile-card">
+        <div class="background-block">
+          <img
+            src="{% static '/img/editorial.jpg' %}"
+            alt="profile-sample1"
+            class="background w-100"
+          />
+        </div>
+        <div class="profile-thumb-block">
+          <img
+            src="{% static '/img/Abdul Quddus.png' %}"
+            alt="profile-image"
+            class="profile w-100"
+          />
+        </div>
+        <div class="card-content card-body pb-4">
+          <span class="h4 mt-4 d-block">
+            Tanvir Fuad <br />
+            Rumi
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-briefcase pr-2"></i>Executive Member Editorial Team
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-graduation-cap pr-2"></i>Rajshahi University of
+            Engineering and Technology
+          </span>
+
+          <div class="d-flex justify-content-center my-2 social">
+            <a
+              href="https://www.facebook.com/profile.php?id=100029865091690"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Profile Rumi END-->
+
+    <!--Profile Mamun-->
+    <div class="col-md-4 my-4 my-md-0 p-4">
+      <div class="card profile-card">
+        <div class="background-block">
+          <img
+            src="{% static '/img/editorial.jpg' %}"
+            alt="profile-sample1"
+            class="background w-100"
+          />
+        </div>
+        <div class="profile-thumb-block">
+          <img
+            src="{% static '/img/mamun.JPG' %}"
+            alt="profile-image"
+            class="profile w-100"
+          />
+        </div>
+        <div class="card-content card-body pb-4">
+          <span class="h4 mt-4 d-block">
+            Md. Abdullah Al <br />
+            Mamun
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-briefcase pr-2"></i>Executive Member Editorial Team
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-graduation-cap pr-2"></i>University of Rajshahi
+          </span>
+
+          <div class="d-flex justify-content-center my-2 social">
+            <a
+              href="https://www.facebook.com/profile.php?id=100007422467647"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.linkedin.com/in/abdullah-al-mamun-oli-4324421a1"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Profile Mamun END-->
+
+    <!--Profile Faiaz Ahmed Arnab-->
+    <div class="col-md-4 my-4 my-md-0 p-4">
+      <div class="card profile-card">
+        <div class="background-block">
+          <img
+            src="{% static '/img/editorial.jpg' %}"
+            alt="profile-sample1"
+            class="background w-100"
+          />
+        </div>
+        <div class="profile-thumb-block">
+          <img
+            src="{% static '/img/Faiaz Ahmed.jpg' %}"
+            alt="profile-image"
+            class="profile w-100"
+          />
+        </div>
+        <div class="card-content card-body pb-4">
+          <span class="h4 mt-4 d-block"> Faiaz Ahmed Arnab </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-briefcase pr-2"></i>Executive Member Editorial Team
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-graduation-cap pr-2"></i>Rajshahi University of
+            Engineering and Technology
+          </span>
+
+          <div class="d-flex justify-content-center my-2 social">
+            <a href="https://www.facebook.com/stadia.atandrila" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a
+              href="https://www.instagram.com/sadiyawastingtime_/"
+              target="_blank"
+              ><i class="fab fa-instagram"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Profile Faiaz Ahmed Arnab END-->
+
+    <!--Profile Zubaer Rahman Anik-->
+    <div class="col-md-4 my-4 my-md-0 p-4">
+      <div class="card profile-card">
+        <div class="background-block">
+          <img
+            src="{% static '/img/communication.jpg' %}"
+            alt="profile-sample1"
+            class="background w-100"
+          />
+        </div>
+        <div class="profile-thumb-block">
+          <img
+            src="{% static '/img/Zubaer.jpeg' %}"
+            alt="profile-image"
+            class="profile w-100"
+          />
+        </div>
+        <div class="card-content card-body pb-4">
+          <span class="h4 mt-4 d-block"> Zubaer Rahman Anik </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-briefcase pr-2"></i>Communication & Management
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-graduation-cap pr-2"></i>Rajshahi University of
+            Engineering and Technology
+          </span>
+
+          <div class="d-flex justify-content-center my-2 social">
+            <a
+              href="https://www.facebook.com/profile.php?id=100007607086172"
+              target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Profile Zubaer Rahman Anik END-->
+
+    <!--Profile Momo-->
+    <div class="col-md-4 my-4 my-md-0 p-4">
+      <div class="card profile-card">
+        <div class="background-block">
+          <img
+            src="{% static '/img/communication.jpg' %}"
+            alt="profile-sample1"
+            class="background w-100"
+          />
+        </div>
+        <div class="profile-thumb-block">
+          <img
+            src="{% static '/img/Momo.jpeg' %}"
+            alt="profile-image"
+            class="profile w-100"
+          />
+        </div>
+        <div class="card-content card-body pb-4">
+          <span class="h4 mt-4 d-block"> Tahiya Tasnim Momo </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-briefcase pr-2"></i>Communication & Management
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-graduation-cap pr-2"></i>Rajshahi University of
+            Engineering and Technology
+          </span>
+
+          <div class="d-flex justify-content-center my-2 social">
+            <a href="https://www.facebook.com/tahiyamomo" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Profile Momo END-->
+
+    <!--Profile Sadiya Shuchita-->
+    <div class="col-md-4 my-4 my-md-0 p-4">
+      <div class="card profile-card">
+        <div class="background-block">
+          <img
+            src="{% static '/img/graphics.jpg' %}"
+            alt="profile-sample1"
+            class="background w-100"
+          />
+        </div>
+        <div class="profile-thumb-block">
+          <img
+            src="{% static '/img/sadia shuchita.jpg' %}"
+            alt="profile-image"
+            class="profile w-100"
+          />
+        </div>
+        <div class="card-content card-body pb-4">
+          <span class="h4 mt-4 d-block"> Sadiya Shuchita </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-briefcase pr-2"></i>Graphic Designer
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-graduation-cap pr-2"></i>Rajshahi University of
+            Engineering and Technology
+          </span>
+
+          <div class="d-flex justify-content-center my-2 social">
+            <a href="https://www.facebook.com/arnab.faiaz" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Profile Sadiya Shuchita END-->
+
+    <!--Profile Touha-->
+    <div class="col-md-4 my-4 my-md-0 p-4">
+      <div class="card profile-card">
+        <div class="background-block">
+          <img
+            src="{% static '/img/web.jpg' %}"
+            alt="profile-sample1"
+            class="background w-100"
+          />
+        </div>
+        <div class="profile-thumb-block">
+          <img
+            src="{% static '/img/Touha Zohair.jpg' %}"
+            alt="profile-image"
+            class="profile w-100"
+          />
+        </div>
+        <div class="card-content card-body pb-4">
+          <span class="h4 mt-4 d-block"> Touha Zohair </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-briefcase pr-2"></i>Web Developer
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-graduation-cap pr-2"></i>Rajshahi University of
+            Engineering and Technology
+          </span>
+          <div class="d-flex justify-content-center my-2 social">
+            <a href="https://www.facebook.com/touha99" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="https://github.com/touha98" target="_blank">
+              <i class="fab fa-github"></i
+            ></a>
+            <a href="https://iamtouha.web.app" target="_blank">
+              <i class="fas fa-globe"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Profile Touha END-->
+
+    <!--Profile Mahin-->
+    <div class="col-md-4 my-4 my-md-0 p-4">
+      <div class="card profile-card">
+        <div class="background-block">
+          <img
+            src="{% static '/img/web.jpg' %}"
+            alt="profile-sample1"
+            class="background w-100"
+          />
+        </div>
+        <div class="profile-thumb-block">
+          <img
+            src="{% static '/img/mahin.jpg' %}"
+            alt="profile-image"
+            class="profile w-100"
+          />
+        </div>
+        <div class="card-content card-body pb-4">
+          <span class="h4 mt-4 d-block">
+            Noor Ajmir Tanvir<br />
+            Mahin
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-briefcase pr-2"></i>Web Developer
+          </span>
+          <span class="pt-1 d-block">
+            <i class="fas fa-graduation-cap pr-2"></i>Rajshahi University of
+            Engineering and Technology
+          </span>
+
+          <div class="d-flex justify-content-center my-2 social">
+            <a href="http://fb.me/tanvir.mahin.1" target="_blank"
+              ><i class="fab fa-facebook"></i
+            ></a>
+            <a href="http://github.com/tanvirmahin24" target="_blank">
+              <i class="fab fa-github"></i
+            ></a>
+            <a
+              href="http://linkedin.com/in/noor-ajmir-tanvir-mahin-b188a01a1/"
+              target="_blank"
+            >
+              <i class="fab fa-linkedin"></i
+            ></a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--Profile Mahin END-->
+  </div>
+</div>
+
+<!--About END-->
+{% endblock %}
